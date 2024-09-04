@@ -1,11 +1,11 @@
 project "SpdLog"
 	kind "StaticLib"
 	language "C++"
-  cppdialect "C++17"
+  cppdialect "C++20"
 	staticruntime "off"
 
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-	objdir ("bin/intermediate/" .. outputdir .. "/%{prj.name}")
+	targetdir ("bin/" .. outputDir .. "/%{prj.name}")
+	objdir ("bin/intermediate/" .. outputDir .. "/%{prj.name}")
 
 	files {
 		"include/spdlog/**.h",
