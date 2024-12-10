@@ -86,3 +86,4 @@ cmake-build-*/
 /out/build
 /CMakeSettings.json
 *.recipe
+/bin/intermediate/Debug-windows-x86_64/SpdLog
